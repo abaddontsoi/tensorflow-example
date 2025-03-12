@@ -1,5 +1,5 @@
 import os 
-os.environ["KERAS_BACKEND"] = "tensorflow"
+os.environ["KERAS_BACKEND"] = "jax"
 
 import keras
 import numpy as np
